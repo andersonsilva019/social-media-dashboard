@@ -70,7 +70,7 @@ const Cards = () => (
       }
 
       .content li {
-        height: 300px;
+        height: 250px;
         background: hsl(228, 28%, 20%);
         border-radius: 4px;
         display:flex;
@@ -99,7 +99,7 @@ const Cards = () => (
       }
 
       .content li section.followers h1 {
-        font-size: 22px;
+        font-size: 60px;
         color: #FFF;
       }
 
@@ -107,6 +107,7 @@ const Cards = () => (
         color: hsl(228, 34%, 66%);
         font-size: 18px;
         margin-top: 5px;
+        letter-spacing: 5px;
       }
 
       .content li.facebook {

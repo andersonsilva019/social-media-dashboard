@@ -2,6 +2,7 @@ import Head from 'next/head';
 
 import Header from '../components/Header';
 import Cards from '../components/Cards';
+import OverView from '../components/OverView';
 
 export default function Home() {
   return (
@@ -13,6 +14,7 @@ export default function Home() {
 
         <Header/>
         <Cards/>
+        <OverView/>
         <style jsx global>{`
           * {
             margin: 0;
